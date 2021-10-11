@@ -1,0 +1,383 @@
+
+ 
+
+
+html { 
+  height: 100%;
+}
+header{
+  background-color:#4B638E ;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+#link{
+  color: #354765;
+}
+body { 
+  font: normal .85em 'Droid Sans', arial, sans-serif;
+  background: #FFF;
+  color: #151C29;
+  padding-bottom: 40px;
+}
+
+p { 
+  padding: 0 0 20px 0;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img { 
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-size:  400% ;
+  color: #151C29;
+  margin: 0 0 0px 0;
+  padding: 20px 0 5px 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1 { 
+  color: #4B638E;
+}
+
+h2 { 
+  font-size:  220% ;
+  color: #B9C5DA;  
+  margin: 0;
+  padding: 0 0 8px 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h3 { 
+  font-size:  125% ;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  color: #E6EAF2;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h5, h6 { 
+  font: italic 95%  'Roboto', sans-serif;
+  ;
+  color: #7C93BA;
+  padding-bottom: 15px;
+}
+
+h6 { 
+  color: #202B3D;
+}
+#text-color{
+  color:#202B3D;
+}
+a, a:hover { 
+  outline: none;
+  text-decoration: underline;
+  color: #FFF;
+}
+
+a:hover { 
+  text-decoration: none;
+  color: #FFF;
+}
+
+ul { 
+  margin: 2px 0 22px 17px;
+}
+
+ul li { 
+  list-style-type: circle;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 5px;
+}
+
+ol { 
+  margin: 8px 0 22px 20px;
+}
+
+ol li { 
+  margin: 0 0 11px 0;
+}
+
+#main, header, #logo, nav, #site_content, footer { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main { 
+  width: 950px;
+  margin: 20px auto 0 auto;
+}
+
+header { 
+  width: 950px;
+  height: 105px;
+}
+#First-sdiv{
+
+margin-top:90px ;
+}
+
+nav { 
+  height: 26px;
+  width: 720px;
+  margin: 1px auto 0 auto;
+  float: right;
+  padding: 35px 0 0 0;
+} 
+
+#site_content { 
+  width: 950px;
+  overflow: hidden;
+  margin: 4px auto 0 auto;
+  padding: 0;
+  background: #7C93BA;
+  border-top: 0;
+  border-bottom: 0;
+} 
+
+#sidebar_container { 
+  float: right;
+  width: 450px;
+  padding: 0;
+  height: 450px;
+}
+
+.content { 
+  text-align: justify;
+  width: 444px;
+  padding: 0 0 5px 30px;
+  margin: 0;
+  float: left;
+}
+
+#content ul { 
+  margin: 2px 0 5px 0px;
+}
+
+#content ul li { 
+  list-style-type: none;
+  background: transparent url(../images/bullet.png) no-repeat left center;
+  margin: 0 0 0 0; 
+  padding: 2px 0 2px 28px;
+  line-height: 1.5em;
+}
+
+#blog_container h4 {
+  font: normal 250% 'Jenna Sue', arial, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 5px 0;}
+
+#blog_container h4.select {
+  width: 475px;}
+
+.blog {
+  background: url(../images/calendar.png) no-repeat;
+  width: 54px;
+  height: 46px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.blog h2 {
+  font: normal 90% 'Roboto', sans-serif;
+  ;
+  text-shadow: none;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0 0 0;
+  color: #FFF;
+}
+  
+.blog h3 {
+  font: 130% arial, sans-serif;
+  text-shadow: none;
+  margin: -19px 0 0 0;
+  text-align: center;
+  color: #354765;
+}
+
+footer { 
+  width: 950px;
+  font: 109% 'Droid Sans', arial, sans-serif;
+  height: 75px;
+  padding: 17px 0 5px 0;
+  text-align: center; 
+  background: #5572A2;
+}
+
+footer p { 
+  padding: 0 0 10px 0;
+}
+
+footer a, footer a:hover { 
+  color: #A4B4CF;
+  text-decoration: none;
+}
+
+footer a:hover { 
+  color: #A4B4CF;
+  text-decoration: underline;
+}
+
+/* form styling */
+.form_settings { 
+  margin: 0;
+}
+
+.form_settings p { 
+  padding: 0 0 10px 0;
+}
+
+.form_settings span { 
+  padding: 5px 0; 
+  float: left; 
+  width: 170px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 4px; 
+  width: 252px; 
+  font: 100% 'Roboto', sans-serif;
+  ;
+  border: 0;
+  border-bottom: 1px solid #2B3951; 
+  background: transparent;
+  color: #4B638E;
+}
+  
+.form_settings .submit { 
+  font: 140%  'Roboto', sans-serif;
+  ; 
+  border: 0; 
+  width: 100px; 
+  margin: 0 0 0 162px; 
+  height: 30px;
+  padding: 0 0 6px 0;
+  cursor: pointer; 
+  border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  background: #4B638E;
+  color: #FFF;
+  line-height: 15px;
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100%  'Roboto', sans-serif;
+  ; 
+  border: 1px solid #2B3951; 
+  border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  width: 250px;
+  overflow: auto;
+}
+
+.form_settings select { 
+  width: 304px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+ul.images {
+  width:450px;
+  height:450px;
+  overflow:hidden;
+  position:relative;
+  margin:0;
+  padding:0;
+} 
+
+ul.images li {
+  position:absolute;
+  margin:0;
+  padding:0;
+  left:0;
+  right:0;
+  list-style:none;
+}
+ 
+ul.images li.show {
+  z-index:500;  
+}
+ 
+ul img {
+  border:none;  
+}
+
+
+
+/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
+.lavaLampWithImage {
+  position: relative;
+  height: 25px;
+  padding: 10px 5px 15px 0;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+  float: right;
+}
+
+.lavaLampWithImage li {
+  float: left;
+  list-style: none;
+}
+
+.lavaLampWithImage li.back {
+  background: #40557A;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  height: 28px;
+  z-index: 8;
+  position: absolute;
+}
+
+.lavaLampWithImage li a {
+  font: 109% 'Roboto', sans-serif;
+  ;
+  text-decoration: none;
+  color: #FFF;
+  outline: none;
+  text-align: center;
+  letter-spacing: 0;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 6px 9px 0 9px;
+  position: relative;
+  overflow: hidden;
+  margin: auto 10px;    
+}
+
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
+  border: none;
+}
